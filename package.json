@@ -1,0 +1,26 @@
+{
+  "name": "ex_re",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AsafEini/ex_re.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AsafEini/ex_re/issues"
+  },
+  "homepage": "https://github.com/AsafEini/ex_re#readme",
+  "dependencies": {
+    "concurrently": "^4.1.2",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.2"
+  }
+}
